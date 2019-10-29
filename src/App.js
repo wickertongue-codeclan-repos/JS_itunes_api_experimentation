@@ -10,3 +10,6 @@ class App extends Component {
 }
 
 export default App;
+
+
+// api: https://rss.itunes.apple.com/api/v1/gb/podcasts/top-podcasts/all/50/explicit.json
