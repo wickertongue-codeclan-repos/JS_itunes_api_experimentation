@@ -1,10 +1,14 @@
 import React, {Component} from 'react';
+import PodcastBox from './containers/MusicBox'
 import './App.css';
 
 class App extends Component {
   render() {
     return (
-      <h1>Hi There!</h1>
+      <div>
+        <h1>This is the App speaking.</h1>
+        <PodcastBox />
+      </div>
     )
   }
 }
