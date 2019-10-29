@@ -17,7 +17,7 @@ class ArtistSelector extends Component {
     return (
       <Fragment>
         <p>This is the ArtistSelector speaking.</p>
-        {/* <p>{props.top50}</p> */}
+        <p>{this.props.top50.feed.entry[0]["im:name"].label}</p>
           <select>
             <option>
 
