@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import ArtistSelector from '../components/ArtistSelector';
 import TrackDetail from '../components/TrackDetail';
 
-class PodcastBox extends Component {
+class MusicBox extends Component {
   constructor(props) {
     super(props) 
     this.state = {
@@ -21,7 +21,7 @@ class PodcastBox extends Component {
 
   render() {
     return (
-      <div className="PodcastBox">
+      <div className="MusicBox">
         <h2>This is the MusicBox speaking.</h2>
         <ArtistSelector top50={this.state.top50}/>
         <TrackDetail />
@@ -30,4 +30,4 @@ class PodcastBox extends Component {
   }
 }
 
-export default PodcastBox
+export default MusicBox;

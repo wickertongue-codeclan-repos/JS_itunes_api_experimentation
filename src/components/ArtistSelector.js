@@ -10,10 +10,14 @@ class ArtistSelector extends Component {
   }
 
   render() {
+    // const dropdown = this.props.top50.map((track, index) => {
+    //   return <option value={index} key={index}>{track.feed.entry["im:name"]}</option>
+    // })
+
     return (
       <Fragment>
         <p>This is the ArtistSelector speaking.</p>
-        {/* <p>{props[0]}</p> */}
+        {/* <p>{props.top50}</p> */}
           <select>
             <option>
 
